@@ -1,0 +1,39 @@
+package PizzaFactory;
+
+import Pizza.*;
+
+public class ItalianPizzaFactory extends PizzaFactory {
+	public Pizza makePizza(PizzaType.Style style) {
+		Pizza thePizza = null; 
+		if(style == PizzaType.Style.Pepperoni) {
+			thePizza = new PepperoniPizza();
+		}
+		if(style == PizzaType.Style.Cheese) {
+			thePizza = new PepperoniPizza();
+		}
+		if(style == PizzaType.Style.Veggie) {
+			thePizza = new PepperoniPizza();
+		}
+		if(style == PizzaType.Style.DoubleMeat) {
+			thePizza = new DoubleMeatPizza();
+		}
+		if(style == PizzaType.Style.Pepperoni) {
+			thePizza = new PepperoniPizza();
+		}
+		
+		if(style == PizzaType.Style.Pepperoni)
+			return new PepperoniPizza(); 
+		
+		if(style == PizzaType.Style.Pepperoni)
+			return new PepperoniPizza(); 
+		
+		if(style == PizzaType.Style.Pepperoni)
+			return new PepperoniPizza(); 
+		
+		if(style == PizzaType.Style.Pepperoni)
+			return new PepperoniPizza(); 
+		
+		
+		return thePizza; 
+	}
+}
